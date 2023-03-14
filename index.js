@@ -10,10 +10,19 @@ function scuberGreetingForFeet(feet) {
   }
 }
 
-function ternaryCheckCity() {
-  // Write your code here!
+function ternaryCheckCity(city) {
+  return city === "NYC" ? "Ok, sounds good." : "No go.";
 }
 
-function switchOnCharmFromTip() {
-  // Write your code here!
+function switchOnCharmFromTip(tip) {
+  switch (tip) {
+    case "generous":
+      "Thank you so much.";
+      break;
+    case tip == "not as generous":
+      "Thank you.";
+      break;
+    default:
+      "Bye.";
+  }
 }
